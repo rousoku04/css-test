@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(14, 0, 122);
+    margin: 15px;
+}
+
+.coach-tech{
+    margin: 15px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content{
+    height: 700px;
+    position: relative;
+}
+
+.firstview{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    z-index: 1;
+}
+
+.word{
+    font-size: 70px;
+    font-weight: 100%;
+}
+
+.rectangle{
+    height: 200px;
+    width: 75%;
+    background-color: rgb(14, 0, 122);
+}
+
+.word-and-rectangle{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    width: 100%;
+}
